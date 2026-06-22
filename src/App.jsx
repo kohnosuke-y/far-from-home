@@ -279,7 +279,7 @@ function HomeScreen({ onShowRoutes, onShowSettings, location, home }) {
           <div style={{ fontSize: 10, color: C.sub, letterSpacing: 2, marginBottom: 4 }}>
             📍 {location.name} → 🏠 {home}
           </div>
-          <h1 style={{ fontSize: 20, fontWeight: 900, color: C.white, margin: 0 }}>ちゃんと送るからね</h1>
+          <h1 style={{ fontSize: 20, fontWeight: 900, color: C.white, margin: 0 }}>Far From Home</h1>
         </div>
         <button onClick={onShowSettings} style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 12, padding: "8px", cursor: "pointer", lineHeight: 0 }}>
           <Settings size={18} color={C.sub} />
